@@ -1,0 +1,40 @@
+  <div class="options">
+      <div class="btn-group">
+              <button [ngClass]="{'btn btn-primary': view=='card'}" (click)="view='card'" type="button">Card View</button>
+              <button [ngClass]="{'btn btn-primary': view=='list'}" (click)="view='list'" type="button">List View</button>
+      </div>
+      <span class="filter">Filter by First Name: <input type="text" [(ngModel)]="searchText"></span>
+      <button type="button" class="btn btn-info newCust" (click)="create()">New Customer</button>
+  </div>
+  <div *ngIf="view=='card'" class="row cardBlock">
+      <app-card *ngFor="let data of customerData | filter : searchText" [data]="data"></app-card>
+  </div>
+  <div *ngIf="view=='list'">
+          <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th></th>
+                      <th scope="col">First Name</th>
+                      <th scope="col">Last Name</th>
+                      <th scope="col">Address</th>
+                      <th scope="col">City</th>
+                      <th scope="col">State</th>
+                      <th scope="col">Order Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let data of customerData | filter : searchText">
+                      <td>
+                          <img *ngIf="data.gender=='M'" src="../../../../assets/images/male.png" width="25" height="25" alt="Male Image Not Available">
+                          <img *ngIf="data.gender=='F'" src="../../../../assets/images/female.png"  width="25" height="25" alt="Female Image Not Available">
+                      </td>
+                      <td>{{data.firstName}}</td>
+                      <td>{{data.lastName}}</td>
+                      <td>{{data.address}}</td>
+                      <td>{{data.city}}</td>
+                      <td>{{data.state}}</td>
+                      <td>${{data.orderTotal}}</td>
+                    </tr>
+                  </tbody>
+          </table>
+  </div>

@@ -1,0 +1,15 @@
+.card{
+    display: inline-block;
+    width: 30%;
+}
+image{
+    width: 25px;
+    height: 25px;
+}
+span{
+    color: rgb(83, 16, 230);
+    cursor: pointer;
+}
+span.last{
+    float: right;
+}

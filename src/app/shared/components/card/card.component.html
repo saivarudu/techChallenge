@@ -1,0 +1,12 @@
+<toaster-container [toasterconfig]="config"></toaster-container>
+<div class="card" style="width: 30%" appCardHover>
+  <div class="card-body">
+      <h5 class="card-title">{{data.firstName}}</h5>
+      <img *ngIf="data.gender=='M'" src="../../../../assets/images/male.png" class="card-img-top" alt="Male Image Not Available">
+      <img *ngIf="data.gender=='F'" src="../../../../assets/images/female.png" class="card-img-top" alt="Female Image Not Available">
+      <p class="card-text">{{data.city}}</p>
+      <p class="card-text">{{data.state}}</p>
+      <span (click)="update(data)">Update Order</span>
+      <span class="last" (click)="delete(data.firstName)">Delete Order</span>
+  </div>
+</div>

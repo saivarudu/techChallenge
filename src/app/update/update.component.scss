@@ -1,0 +1,24 @@
+label{
+    font-weight: 600;
+}
+button.btn-primary{
+    float: right;
+}
+button.btn-light{
+    float: right;
+}
+form{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.headName{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 600;
+}
+button:disabled{
+    cursor: not-allowed;
+}

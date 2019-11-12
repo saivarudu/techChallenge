@@ -1,0 +1,75 @@
+[
+    {
+        "firstName" : "Ram",
+        "lastName" : "Sarovar",
+        "address" : "Sector 10",
+        "city" : "Gurugram",
+        "state" : "Haryana",
+        "orderTotal" : "2000",
+        "email" : "ram.2706@gmail.com",
+        "gender" : "M"
+    },{
+        "firstName" : "Raji",
+        "lastName" : "Sharma",
+        "address" : "Sector 12",
+        "city" : "Faridabad",
+        "state" : "Haryana",
+        "orderTotal" : "3000",
+        "email" : "raji.sharma@gmail.com",
+        "gender" : "F"
+    },{
+        "firstName" : "Shashank",
+        "lastName" : "Agarwal",
+        "address" : "Andheri",
+        "city" : "Mumbai",
+        "state" : "Maharashtra",
+        "orderTotal" : "7000",
+        "email" : "shashank.2706@gmail.com",
+        "gender" : "M"
+    },{
+        "firstName" : "Alankrita",
+        "lastName" : "Garg",
+        "address" : "Sector 38",
+        "city" : "Noida",
+        "state" : "Haryana",
+        "orderTotal" : "4000",
+        "email" : "agarg4701@gmail.com",
+        "gender" : "F"
+    },{
+        "firstName" : "Ashutosh",
+        "lastName" : "Yadav",
+        "address" : "Nayi Gali",
+        "city" : "Ranchi",
+        "state" : "Jharkhand",
+        "orderTotal" : "9000",
+        "email" : "ashu.232706@gmail.com",
+        "gender" : "M"
+    },{
+        "firstName" : "Dharani",
+        "lastName" : "Varudu",
+        "address" : "Kairtabad",
+        "city" : "Hyderabad",
+        "state" : "Telangana",
+        "orderTotal" : "3500",
+        "email" : "dharani.var@gmail.com",
+        "gender" : "F"
+    },{
+        "firstName" : "Bahubali",
+        "lastName" : "Nayak",
+        "address" : "Sector 11",
+        "city" : "Gurugram",
+        "state" : "Haryana",
+        "orderTotal" : "2970",
+        "email" : "bahu.nayak6@gmail.com",
+        "gender" : "M"
+    },{
+        "firstName" : "Richa",
+        "lastName" : "Yadav",
+        "address" : "Saket",
+        "city" : "Delhi",
+        "state" : "New Delhi",
+        "orderTotal" : "4600",
+        "email" : "richa.yadav67@gmail.com",
+        "gender" : "F"
+    }
+]
